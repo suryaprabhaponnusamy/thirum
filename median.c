@@ -20,6 +20,6 @@ a[j]=temp;
 }
 }
 }
-printf("%d",a[n-1]);
+printf("median element is %d",a[n/2]);
 return 0;
 }
