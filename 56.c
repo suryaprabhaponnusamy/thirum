@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include<string.h>
-int main(void) {
+int main()
+{
 	char a[100];
 	int alp=0,num=0;
 	scanf("%s",a);
@@ -19,7 +20,7 @@ int main(void) {
 	}
 	if(num==1 && alp==1)
 	{
-		printf("yes");
+		printf("it contains bioth alphabets and numbers");
 	}
 	else
 		printf("no");
