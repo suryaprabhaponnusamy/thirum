@@ -9,10 +9,13 @@ int main()
 	{
 		if(n%7==0)
 		{
-			printf("%d",n);
+			printf("yes");
 			break;
 		}
-		n++;
+		else
+		{
+			printf("no");
+		}
 	}
 	return 0;
-}
+}	
