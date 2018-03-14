@@ -1,8 +1,10 @@
 #include <stdio.h>
 
-int main(void) {
+int main()
+{
 	char a[10];
 	int i;
+	printf("enter the values: ");
 	scanf("%s",a);
 	for(i=0;a[i]!='\0';i++)
 	{
